@@ -7,4 +7,4 @@ Source files for the Tuts+ tutorial: [Tips for Getting a Web Design from Illustr
 
 **Available on Tuts+ June, 2014**
 
-[View the demo](link)
+[View the demo](http://tutsplus.github.io/tips-for-getting-a-web-design-from-illustrator-into-the-browser/1-starting-point/)
