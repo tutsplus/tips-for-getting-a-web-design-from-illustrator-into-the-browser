@@ -1,0 +1,99 @@
+
+.inner.cover {
+	padding-bottom: 25px;
+	background : #FCBA03;
+	background : rgba(252, 186, 3, 1);
+	border-style : Solid;
+	border-color : #E89200;
+	border-color : rgba(232, 146, 0, 1);
+	border-width : 1px;
+	box-shadow : 0px 3px 5px rgba(0, 0, 0, 0.15);
+	filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='#000000') ;
+}
+
+@media (min-width: 992px) {
+
+	.masthead, .mastfoot, .cover-container {
+		width: 400px;
+	}
+	
+	.inner.cover {
+		border-radius : 10px;
+		-moz-border-radius : 10px;
+		-webkit-border-radius : 10px;
+	}
+
+}
+
+
+.form-search {
+	padding: 20px 0;	
+}
+
+/*typography*/
+
+.inner.cover h1
+{
+  font-family : Open Sans;
+  font-weight : bold;
+  font-size : 20px;
+  letter-spacing : 18px;
+  color : #AC4400;
+  color : rgb(172, 68, 0);
+  text-shadow : 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+.inner.cover h2
+{
+  font-family : Open Sans;
+  font-weight : bold;
+  font-size : 90px;
+  color : #FCCE17;
+  color : rgb(252, 206, 23);
+  text-shadow : 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inner.cover p
+{
+  font-family : Open Sans;
+  font-size : 14px;
+  line-height : 15.6px;
+  color : #AC4400;
+  color : rgb(172, 68, 0);
+  text-shadow : 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+.inner.cover #searchInput
+{
+	color: #ffffff;
+  background : #E89200;
+  background : rgba(232, 146, 0, 1);
+  border-style : Solid;
+  border-color : #000000;
+  border-color : rgba(0, 0, 0, 0.2);
+  border-width : 1px;
+  box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.3);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#FFFFFF') ;
+}
+
+.btn,
+.btn:hover
+{
+	font-family : Open Sans;
+	font-weight : bold;
+	font-size : 14px;
+	color : #AC4400;
+	text-shadow : 0px 1px 0px rgba(255, 255, 255, 0.3);
+	
+	background : #FDDA2F;
+	border-color: #FDDA2F;
+	
+	border-radius : 4px;
+	margin: .2em;
+}
+
+.btn:hover {
+	background: #ffe565;
+	border-color: #ffe565;
+}
+
