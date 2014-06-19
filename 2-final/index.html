@@ -15,6 +15,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    
+    <!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -32,8 +36,34 @@
         <div class="cover-container">
 
           <div class="inner cover">
-            <h1 class="cover-heading">404</h1>
-            <p class="lead">This is the base from which we'll work. All fluff has been stripped out.</p>
+          
+            <h1>Error</h1>
+          	<h2>404</h2>
+            <p>Sorry, the page you were looking for doesn't exist</p>
+            <p>Try searching for the page here:</p>
+           
+			<!-- more form markup available http://getbootstrap.com/css/#forms -->            
+			<form class="form-inline form-search" role="form">
+				<div class="form-group">
+					<label class="sr-only" for="searchInput">Search</label>
+					<input type="search" class="form-control" id="searchInput">
+				</div>
+				<button type="submit" class="btn btn-default">Search</button>
+			</form>
+			
+			<p><strong>Or</strong></p>
+			
+			<!-- buttons -->
+			<a href="#" class="btn btn-primary tip" title="back">
+				<img src="img/icon-back.svg" alt="">
+			</a>			
+			<a href="#" class="btn btn-primary tip" title="home">
+				<img src="img/icon-home.svg" alt="">
+			</a>			
+			<a href="#" class="btn btn-primary tip" title="contact us">
+				<img src="img/icon-contact.svg" alt="">
+			</a>
+
           </div>
 
           <div class="mastfoot">
@@ -53,5 +83,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    $(function(){
+    	$('.tip').tooltip()
+    });
+    </script>
+    
   </body>
 </html>
